@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Employee Management System</h1>
+
+    <div class="form">
+        <input type="number" id="id" placeholder="ID">
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="role" placeholder="Role">
+        <input type="number" id="salary" placeholder="Salary">
+
+        <div class="buttons">
+            <button class="primary" onclick="addEmployee()">Add</button>
+            <button class="secondary" onclick="updateEmployee()">Update</button>
+        </div>
+    </div>
+
+    <h2>Employees</h2>
+    <ul id="employeeList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
